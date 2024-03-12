@@ -25,8 +25,8 @@
         <h2>Abstract:</h2>
         <p>
         <ul>
-Text-to-speech (TTS) aims to generate natural speech from provided text. Expressive speech synthesis greatly aids in synthesizing natural voices. Previous works on expressive Chinese TTS system focus more on the diffiences of the grammatical system between English and Chinese, however, the pronunication systems between both two languages are also divergent. The prosody in Chinese could be divided into intra-prosody and inter-prosody, and intra-prosody indicates the rhythmic variation within each phoneme duration, if the two are not modelled in harmony it can lead to unnatural speech. Therefore, we propose DSP-TTS with double-scale prosody extractors and predictors to capture inter-word and intra-word prosody respectively and joint training to uniform modelling of these two prosody. Both objective and subjective evaluations on the Mandarin Speech Dataset BZNSP demonstrate that the proposed method significantly improve the naturalness and expressiveness of the Chinese synthesized speech.
-
+Text-to-speech (TTS) aims to generate natural speech from provided text. Previous works on expressive Chinese TTS focus more on semantic differences between English and Chinese. It is well-known that the pronunciations between two languages are also different. The pronunciation of each English word usually can be divided into multiple phonemes with shorter durations. And each Chinese word often consists of two characters with longer duration. The rhythmic changes within the duration of each Chinese phoneme are more easily to perceive. Therefore we need to explicitly model the intra-word prosody. We propose DSP-TTS with double-scale predictors to capture both inter- and intra-word prosody. In order to train these predictors, we also propose a extractor to extract target prosody information from the training data. Both objective and subjective evaluation results demonstrate the effectiveness of the proposed method.
+            
         </ul>
         </p>
 <hr>
